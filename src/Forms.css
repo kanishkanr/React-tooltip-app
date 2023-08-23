@@ -1,0 +1,62 @@
+/* Styling for the Forms component */
+.Forms {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px; /* Adjust the padding to reduce the height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px; /* Adjust the width as needed */
+  }
+  
+  /* Flexbox layout for the form */
+  .Forms form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for labels */
+  .Forms label {
+    margin-bottom: 5px;
+    width: 200px; /* Adjusted label width */
+  }
+  
+  /* Styling for input fields and select elements */
+  .Forms select,
+  .Forms input[type="text"],
+  .Forms input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styling for sections with multiple inputs */
+  .Forms .info,
+  .Forms .info-inline1,
+  .Forms .info-inline2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Styling for number input fields within info sections */
+  .Forms .info input[type="number"],
+  .Forms .info-inline1 input[type="number"],
+  .Forms .info-inline2 input[type="number"] {
+    width: 55%; /* Adjust the width as needed */
+  }
+  
+  /* Styling for all text and number input fields */
+  .Forms input[type="text"],
+  .Forms input[type="number"] {
+    width: 90%;
+  }
+  
+  /* Align the form to the left */
+  .Forms {
+    float: left;
+    margin-right: 100px; /* Add some space to the right */
+  }
+  
+  /* Additional customization can be added here */
+  
